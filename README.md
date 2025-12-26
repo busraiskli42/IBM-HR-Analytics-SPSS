@@ -35,14 +35,14 @@ This project analyzes the key drivers of employee attrition (churn) using a hypo
 Employees working **OverTime** are significantly more likely to leave.
 * **Statistical Evidence:** The Logistic Regression model shows that OverTime increases the risk of attrition by **4.3 times** ($Exp(B): 4.29$, $p < 0.05$).
 
-![OverTime Chart](bar_chart.png)
+![OverTime Chart]("C:\Users\isikl\Desktop\IBM-HR-Analytics-Project\bar_chart.png")
 *(Fig 1: Attrition rates significantly higher for employees working overtime)*
 
 ### 2. Losing Young Talent (Age & Income vs. Attrition)
 The analysis reveals a cluster of attrition among **younger employees with lower income**.
 * **Statistical Evidence:** Negative coefficients for `Age` and `MonthlyIncome` indicate that as age and income drop, the probability of leaving rises.
 
-![Scatter Plot](scatter_plot.png)
+![Scatter Plot]("C:\Users\isikl\Desktop\IBM-HR-Analytics-Project\scatter_plot.png")
 *(Fig 2: Red circles (Attrition) are clustered in the "Young & Low Income" section)*
 
 ## 🚀 Executive Summary & Recommendation
